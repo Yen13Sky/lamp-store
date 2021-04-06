@@ -1,0 +1,41 @@
+.container {
+}
+.header {
+
+		&__inner {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__nav {
+		}
+
+		&__logo {
+			margin: 0 auto;
+		}
+
+		&__btn {
+			padding: 46px 0 45px 0;			
+		}
+}
+.menu {
+	padding: 0 60px 0 35px;
+
+		&__link {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 22px;		
+			text-align: center;			
+			color: rgba(54, 56, 56, 0.9033);			
+			margin: 0 80px 0 0;
+			&:last-child{
+				margin: 0;
+			}
+			&:hover{
+				color: #FFEF35;				
+			}			
+		}
+}
+

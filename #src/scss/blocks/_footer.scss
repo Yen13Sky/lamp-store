@@ -1,0 +1,182 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+
+	&__content {
+		background: #DFDFDF;
+		padding: 60px 0 80px;	
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;				
+	}
+
+	&__copyright {		
+		background: #363838;
+		padding: 42px 0 42px 0;
+		font-size: 16px;
+		line-height: 28px;		
+		text-align: center;		
+		color: #A1A1A1;
+	}
+}
+.footer-block {
+
+	&__contacts {
+		width: 540px;
+	}
+
+	&__socials {
+		margin: 0 0 0 99px;
+	}
+
+	&__menu {
+		
+	}
+}
+.footer-contacts {
+
+	&__title {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 23px;
+		color: #363838;
+		margin: 0 0 15px 0;
+	}
+
+	&__text {
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 27px;		
+		color: #5A5A5A;
+		margin: 0 0 15px 0;
+		padding: 0 73px 0 0;
+	}
+
+	&__email {
+		display: flex;
+		margin: 0 0 22px 0;
+	}
+}
+.footer-email {
+	align-items: center;
+	&:hover{
+		.footer-email__email-adress{
+			color: #FFEF35;
+		}
+		.svg{
+			fill: #FFEF35;
+		}
+	}
+
+	&__icon {
+		margin: 0 14px 0 0;
+	}
+
+	&__email-adress {
+		display: inline-block;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 28px;		
+		color: #363838;
+	}
+}
+.contact-form {	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__input {
+		margin: 0 10px 0 0;	
+		padding: 7px 7px 7px 18px;
+		border: 1px solid rgba(#383636, .7) ;
+		box-sizing: border-box;
+		border-radius: 21px;			
+		width: 100%;
+	}
+
+	&__btn {
+	}
+
+	&__button {
+		background: #363838;
+		padding: 12px 60px;
+		border-radius: 21px;
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: 600;		
+		text-align: center;		
+		color: #FFFFF0;
+	}
+}
+.input {
+	background: transparent;
+	width: 100%;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: normal;	
+	color: #A1A1A1;
+	&.focus{
+		font-style: normal;
+		color: #363838;				
+	}
+	&.err{
+		border: 1px solid red;
+	}
+}
+.req {
+}
+.email {
+}
+.social {
+	display: flex;
+	align-items: center;
+	margin: 0 0 15px 0;
+	cursor: pointer;	
+
+	&__icon {
+		margin: 0 15px 0 0;
+	}
+
+	&__title {
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 600;		
+		color: #707070;
+		text-align: center;
+	}
+	&:hover{
+		.social__title{
+			color:#FFEF35;
+		}
+		.svg{
+			fill: #FFEF35;
+		}
+	}	
+}
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	margin: 0 92px 0 188px;
+	&__title {
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 600;		
+		color: #707070;
+		margin: 0 0 15px 0;
+		&:last-child{
+			margin: 0;
+		}
+		&:hover{
+			color: #FFEF35;
+		}
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+/*Шрифт по умолчанию*/
+$fontfamily:'Open Sans', sans-serif;
+/*--------------------*/
+/*ОСНОВНАЯ СЕТКА*/
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+footer{
+	margin: 0 0 auto;
+}
+/*--------------------*/
+/*ОСНОВНАЯ СЕТКА*/
+.container{
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.svg{
+	cursor: pointer;
+	fill: #363838;	
+	&:hover{
+	fill: #FFEF35;
+}
+}
+
+/*--------------------*/
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+/*Подключение файлов стилей*/
+@import 'blocks/header.scss';
+@import 'blocks/footer.scss';
+@import 'fonts.scss';
+/*--------------------*/
+/*.ibg*/
+.ibg{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	img{display: none;}	
+	}		
+/*--------------------*/
+/*SLICK-SLIDER*/
+.slick-slider{
+	cursor: pointer;
+	position: relative;
+	.slick-track,.slick-list{}
+	.slick-list{
+		overflow: hidden;
+	}
+	.slick-track{
+		display: flex;
+		align-items: flex-start;
+	}
+	.slick-slide{}
+	.slick-dots{		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 104px 0 0 0;
+		li{
+			button{
+				margin: 0 15px 0 0;
+				font-size: 0;
+				width: 60px;
+				height: 4px;
+				border: 1px solid #2c2c2c;
+				border-radius: 25%;
+			}
+			&.slick-active{
+				button{
+					height: 4px;
+					width: 60px;
+					border-radius: 15%;
+					background-color: #2c2c2c;
+				}
+			}
+		}
+	}
+}
+/*ОСНОВНАЯ СЕТКА*/
+.header {
+}
+.main {
+}
+.footer {
+}
+/*===========================================*/
+/*СТИЛИ СТРАНИЦЫ*/
+/*===========================================*/
